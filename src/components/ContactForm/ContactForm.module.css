@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  gap: 10px;
+  width: 400px;
+  margin: 50px 0 50px 50px;
+  flex-direction: column;
+  border: 1px solid rebeccapurple;
+  padding: 40px;
+}
+
+.button {
+  margin-top: 40px;
+  width: max-content;
+}
+.name {
+  display: flex;
+  gap: 20px;
+}
+.number {
+  display: flex;
+  gap: 20px;
+}

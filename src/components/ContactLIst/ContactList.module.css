@@ -1,0 +1,20 @@
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #212121;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  padding: 10px;
+  border: 1px solid rebeccapurple;
+  cursor: pointer;
+}
+.listItem:hover {
+  background-color: antiquewhite;
+}
